@@ -1,0 +1,976 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #89c15e;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+  padding-top: 60px;
+  position: relative;
+} */
+/* ----------------------------- HEADING SECTION ------------------------------------------- */
+/* .heading {
+  width: 55%;
+  height: 29%;
+  border: 2px solid white;
+  border-radius: 13px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.terms {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 600;
+}
+.score-box {
+  border-radius: 9px;
+  border: none;
+  background-color: white;
+  float: right;
+  height: 100%;
+  width: 139px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.score-heading {
+  color: #656565;
+  font-size: 17px;
+  font-weight: 700;
+}
+.actual-score {
+  color: #252525;
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.comp-box {
+  margin-right: 35px;
+} */
+
+/* ====================================== TRIANGLE SECTION ================================================================ */
+/* 
+.triangle {
+  position: relative;
+  width: 22%;
+  padding: 35px 35px 55px 35px;
+  margin-top: 50px;
+ 
+}
+.line-one {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin: 15px auto;
+  margin-bottom: 10px;
+}
+.line-two {
+  float: right;
+  height: 130px;
+}
+.line-three {
+  float: left;
+  height: 130px;
+}
+.circle {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  box-shadow: 3px 0px 21px 1px #00000033 inset;
+}
+.fist-circle {
+  border: 10px solid #0074b6;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palm-circle {
+  border: 10px solid #ffa943;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.victory-circle {
+  border: 10px solid #bd00ff;
+  bottom: 0;
+  left: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fist-box {
+  height: 45px;
+}
+.fist-box img {
+  height: 100%;
+}
+.palm-box {
+  height: 50px;
+}
+.palm-box img {
+  height: 100%;
+}
+.victory-box {
+  height: 50px;
+}
+.victory-box img {
+  height: 100%;
+} */
+
+/* ------------------------------------------- RULES SECTION ---------------------------------------------------- */ 
+/* 
+.outer-rules-box {
+  position: absolute;
+  z-index: 100;
+  right: 20px;
+  bottom: 65px;
+  width: 21%;
+  height: 55%;
+  visibility: hidden;
+}
+.cross {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: #ff0000;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+.rules-container {
+  position: absolute;
+  border-radius: 13px;
+  border: 6px solid white;
+  background-color: #004429;
+  color: white;
+  width: 95%;
+  height: auto;
+  padding: 16px 25px;
+  margin-top: 20px;
+}
+.rules-container p {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.rules-container li {
+  font-size: 13px;
+  font-weight: 400;
+  position: relative; 
+  padding-left: 20px;
+  margin-bottom: 9px;
+}
+.rules-container li::marker {
+  color: yellow;
+  size: 10px;
+}
+
+.rules-container li::before {
+  content: "";
+  position: absolute; 
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 10px; 
+  height: 10px; 
+  background-color: yellow; 
+}
+
+.corner-button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.rules-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+
+.next-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  visibility: hidden;
+} */
+/* ========================================== HALO CONTAINER ===================================== */
+/* .center-result {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+}
+.big-text {
+  font-size: 39px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.small-text {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.play-again-btn {
+  background-color: white;
+  color: #6b6b6b;
+  font-size: 12px;
+  border: none;
+  border-radius: 7px;
+  height: 29px;
+  width: 130px;
+} */
+/* -----------------------------halo stuff----------------------- */
+/* .halo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  height: 62%;
+  display: none;
+}
+.halo-box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.halo-box p {
+  position: absolute;
+  top: 53px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.halo-circle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 3px 0px 21px 1px #00000033 inset;
+}
+.halo-stone-circle {
+  border: 11px solid #0074b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halo-paper-circle {
+  border: 11px solid #FFA943;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halo-scissor-circle {
+  border: 11px solid #BD00FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .halo-box-shadow{
+  box-shadow: 0 0 0 20px rgb(19, 160, 19), 0 0 0 40px rgb(19, 160, 19, 0.6),
+  0 0 0 60px rgb(19, 160, 19, 0.2);
+  animation: halo-pulse 3s infinite;
+}
+
+@keyframes halo-pulse {
+  0% {
+      box-shadow: 0 0 0 20px rgba(19, 160, 19, 0.8), 0 0 0 40px rgba(19, 160, 19, 0.4), 0 0 0 60px rgba(19, 160, 19, 0.2);
+  }
+  50% {
+      box-shadow: 0 0 0 30px rgba(19, 160, 19, 0.6), 0 0 0 50px rgba(19, 160, 19, 0.3), 0 0 0 70px rgba(19, 160, 19, 0.1);
+  }
+  100% {
+      box-shadow: 0 0 0 20px rgba(19, 160, 19, 0.8), 0 0 0 40px rgba(19, 160, 19, 0.4), 0 0 0 60px rgba(19, 160, 19, 0.2);
+  }
+} */
+
+
+/* ========================================= */
+/* ======================================== */
+/* ==================new css======================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #89c15e;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+  padding-top: 60px;
+  position: relative;
+}
+/* ----------------------------- HEADING SECTION ------------------------------------------- */
+.heading {
+  width: 55%;
+  height: 29%;
+  border: 2px solid white;
+  border-radius: 13px;
+  margin-bottom: 15px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terms {
+  display: inline-block;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.score-box-div{
+  height: 100%; 
+  width: 45%;
+  display: flex;
+  gap: 5%;
+}
+.score-box {
+  border-radius: 9px;
+  border: none;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.score-heading {
+  color: #656565;
+  font-size: 17px;
+  font-weight: 700;
+}
+.actual-score {
+  color: #252525;
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+/* ====================================== TRIANGLE SECTION ================================================================ */
+
+.triangle {
+  position: relative;
+  width: 22%;
+  padding: 35px 35px 55px 35px;
+  margin-top: 50px;
+}
+.line-one {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin: 15px auto;
+  margin-bottom: 10px;
+}
+.line-two {
+  float: right;
+  height: 130px;
+}
+.line-three {
+  float: left;
+  height: 130px;
+}
+.circle {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  box-shadow: 3px 0px 21px 1px #00000033 inset;
+}
+.fist-circle {
+  border: 10px solid #0074b6;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palm-circle {
+  border: 10px solid #ffa943;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.victory-circle {
+  border: 10px solid #bd00ff;
+  bottom: 0;
+  left: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fist-box {
+  height: 45px;
+}
+.fist-box img {
+  height: 100%;
+}
+.palm-box {
+  height: 50px;
+}
+.palm-box img {
+  height: 100%;
+}
+.victory-box {
+  height: 50px;
+}
+.victory-box img {
+  height: 100%;
+}
+
+/* ------------------------------------------- RULES SECTION ---------------------------------------------------- */ 
+
+.outer-rules-box {
+  position: absolute;
+  z-index: 100;
+  right: 20px;
+  bottom: 65px;
+  width: 21%;
+  height: 55%;
+  visibility: hidden;
+}
+.cross {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: #ff0000;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+.rules-container {
+  position: absolute;
+  border-radius: 13px;
+  border: 6px solid white;
+  background-color: #004429;
+  color: white;
+  width: 95%;
+  height: auto;
+  padding: 16px 25px;
+  margin-top: 20px;
+}
+.rules-container p {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.rules-container li {
+  font-size: 13px;
+  font-weight: 400;
+  position: relative; 
+  padding-left: 20px;
+  margin-bottom: 9px;
+}
+.rules-container li::marker {
+  color: yellow;
+  size: 10px;
+}
+
+.rules-container li::before {
+  content: "";
+  position: absolute; 
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 10px; 
+  height: 10px; 
+  background-color: yellow; 
+}
+
+.corner-button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.rules-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+
+.next-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  visibility: hidden;
+}
+/* ========================================== HALO CONTAINER ===================================== */
+.center-result {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+}
+.big-text {
+  font-size: 39px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.small-text {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.play-again-btn {
+  background-color: white;
+  color: #6b6b6b;
+  font-size: 12px;
+  border: none;
+  border-radius: 7px;
+  height: 29px;
+  width: 130px;
+}
+/* -----------------------------halo stuff----------------------- */
+.halo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  height: 62%;
+  display: none;
+}
+.halo-box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.halo-box p {
+  position: absolute;
+  top: 53px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.halo-circle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 3px 0px 21px 1px #00000033 inset;
+}
+.halo-stone-circle {
+  border: 11px solid #0074b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halo-paper-circle {
+  border: 11px solid #FFA943;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halo-scissor-circle {
+  border: 11px solid #BD00FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.halo-box-shadow{
+  box-shadow: 0 0 0 20px rgb(19, 160, 19), 0 0 0 40px rgb(19, 160, 19, 0.6),
+  0 0 0 60px rgb(19, 160, 19, 0.2);
+  animation: halo-pulse 3s infinite;
+}
+
+@keyframes halo-pulse {
+  0% {
+      box-shadow: 0 0 0 20px rgba(19, 160, 19, 0.8), 0 0 0 40px rgba(19, 160, 19, 0.4), 0 0 0 60px rgba(19, 160, 19, 0.2);
+  }
+  50% {
+      box-shadow: 0 0 0 30px rgba(19, 160, 19, 0.6), 0 0 0 50px rgba(19, 160, 19, 0.3), 0 0 0 70px rgba(19, 160, 19, 0.1);
+  }
+  100% {
+      box-shadow: 0 0 0 20px rgba(19, 160, 19, 0.8), 0 0 0 40px rgba(19, 160, 19, 0.4), 0 0 0 60px rgba(19, 160, 19, 0.2);
+  }
+}
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/* ===================================== MOBILE DEVICES ========================================================================= */
+@media (max-width: 375px) {
+  .heading{
+    width: 95%;
+    height: 120px;
+    padding: 9px;
+  }
+  .terms {
+    font-size: 1.5rem;
+  }
+  .score-box-div{ 
+  width: 55%;
+  }
+.score-heading{
+  font-size: 13px;
+  font-weight: 600;
+}
+.actual-score {
+  font-size: 29px;
+  font-weight: 600;
+}
+.triangle {
+  width: 80%;
+}
+.line-one {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin: 15px auto;
+  margin-bottom: 10px;
+}
+.line-two {
+  float: right;
+  height: 130px;
+}
+.line-three {
+  float: left;
+  height: 130px;
+}
+.circle {
+  height: 90px;
+  width: 90px;
+}
+.halo-container {
+  width: 100%;
+  height: 300px;
+}
+.halo-box p {
+  top: 63px;
+  font-size: 14px;
+}
+.halo-box {
+  position: relative;
+  height: 300px;
+  width: 35%;
+}
+.center-result {
+  height: 300px;
+  width: 30%;
+}
+.big-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;  
+}
+.small-text {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.play-again-btn {
+  font-size: 14px;
+  width: 70%;
+}
+.halo-circle {
+  height: 65px;
+  width: 65px;
+}
+.halo-stone-circle {
+  border: 6px solid #0074b6;
+}
+.halo-paper-circle {
+  border: 6px solid #FFA943;
+}
+.halo-scissor-circle {
+  border: 6px solid #BD00FF;
+}
+.fist-box {
+  height: 30px;
+}
+.palm-box {
+  height: 30px;
+}
+.victory-box {
+  height: 30px;
+}
+.halo-box-shadow{
+  box-shadow: 0 0 0 10px #13a013, 0 0 0 20px rgb(19, 160, 19, 0.6),
+  0 0 0 30px rgb(19, 160, 19, 0.2);
+  animation: halo-pulse 3s infinite;
+}
+@keyframes halo-pulse {
+  0% {
+      box-shadow: 0 0 0 10px rgba(19, 160, 19, 0.8), 0 0 0 20px rgba(19, 160, 19, 0.4), 0 0 0 30px rgba(19, 160, 19, 0.2);
+  }
+  50% {
+      box-shadow: 0 0 0 20px rgba(19, 160, 19, 0.6), 0 0 0 30px rgba(19, 160, 19, 0.3), 0 0 0 35px rgba(19, 160, 19, 0.1);
+  }
+  100% {
+      box-shadow: 0 0 0 10px rgba(19, 160, 19, 0.8), 0 0 0 20px rgba(19, 160, 19, 0.4), 0 0 0 30px rgba(19, 160, 19, 0.2);
+  }
+}
+.outer-rules-box {
+  right: 10px;
+  bottom: 0px;
+  width: 90%;
+  height: 50%;
+}
+.cross {
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  background-color: #ff0000;
+  font-size: 20px;
+  font-weight: 500;
+}
+.rules-container {
+  border: 3px solid white;
+  padding: 16px 20px;
+}
+.rules-container p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.rules-container li {
+  font-size: 12px;
+}
+.rules-container li::marker {
+  size: 5px;
+}
+.rules-container li::before {
+  width: 7px; 
+  height: 7px; 
+  background-color: yellow; 
+}
+.corner-button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.rules-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+
+.next-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  visibility: hidden;
+}
+}
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/* ===================================== TABLET DEVICES ========================================================================= */
+@media (min-width: 376px) and (max-width: 768px) {
+  .heading{
+    width: 95%;
+    height: 120px;
+    padding: 9px;
+  }
+  .terms {
+    font-size: 1.5rem;
+  }
+  .score-box-div{ 
+  width: 55%;
+  }
+.score-heading{
+  font-size: 13px;
+  font-weight: 600;
+}
+.actual-score {
+  font-size: 29px;
+  font-weight: 600;
+}
+.triangle {
+  width: 50%;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+}
+.halo-container {
+  width: 100%;
+  height: 400px;
+}
+.halo-box p {
+  top: 63px;
+  font-size: 20px;
+}
+.halo-box {
+  height: 400px;
+  width: 35%;
+}
+.center-result {
+  height: 400px;
+  width: 30%;
+}
+.big-text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;  
+}
+.small-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.play-again-btn {
+  font-size: 14px;
+  width: 80%;
+}
+.halo-circle {
+  height: 85px;
+  width: 85px;
+}
+.halo-stone-circle {
+  border: 9px solid #0074b6;
+}
+.halo-paper-circle {
+  border: 9px solid #FFA943;
+}
+.halo-scissor-circle {
+  border: 9px solid #BD00FF;
+}
+.fist-box {
+  height: 35px;
+}
+.palm-box {
+  height: 35px;
+}
+.victory-box {
+  height: 35px;
+}
+.halo-box-shadow{
+  box-shadow: 0 0 0 15px #13a013, 0 0 0 25px rgb(19, 160, 19, 0.6),
+  0 0 0 35px rgb(19, 160, 19, 0.2);
+  animation: halo-pulse 3s infinite;
+}
+@keyframes halo-pulse {
+  0% {
+      box-shadow: 0 0 0 15px rgba(19, 160, 19, 0.8), 0 0 0 25px rgba(19, 160, 19, 0.4), 0 0 0 35px rgba(19, 160, 19, 0.2);
+  }
+  50% {
+      box-shadow: 0 0 0 30px rgba(19, 160, 19, 0.6), 0 0 0 40px rgba(19, 160, 19, 0.3), 0 0 0 45px rgba(19, 160, 19, 0.1);
+  }
+  100% {
+      box-shadow: 0 0 0 15px rgba(19, 160, 19, 0.8), 0 0 0 25px rgba(19, 160, 19, 0.4), 0 0 0 35px rgba(19, 160, 19, 0.2);
+  }
+}
+.outer-rules-box {
+  right: 10px;
+  bottom: 0px;
+  width: 90%;
+  height: 50%;
+}
+.cross {
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  background-color: #ff0000;
+  font-size: 20px;
+  font-weight: 500;
+}
+.rules-container {
+  border: 3px solid white;
+  padding: 16px 20px;
+}
+.rules-container p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.rules-container li {
+  font-size: 12px;
+}
+.rules-container li::marker {
+  size: 5px;
+}
+.rules-container li::before {
+  width: 7px; 
+  height: 7px; 
+  background-color: yellow; 
+}
+.corner-button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.rules-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+.next-button{
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  visibility: hidden;
+}
+}

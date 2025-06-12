@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="heading">
+        <div class="terms">
+            <p>ROCK</p>
+            <P>PAPER</P>
+            <P>SCISSORS</P>
+        </div>
+<div class="score-box-div">
+        <div class="user-box score-box">
+            <p class="score-heading">YOUR</p>
+            <p class="score-heading">SCORE</p>
+            <p class="actual-score dd">0</p>
+        </div>
+
+        <div class="comp-box score-box">
+            <p class="score-heading"> COMPUTER </p>
+            <p class="score-heading">SCORE</p>
+            <p class="actual-score">0</p>
+        </div>
+</div>
+    </div>
+
+    <!-- ---------------------------Triangle --------------------------- -->
+    <div class="triangle">
+
+        <img src="images/Line 1.png" alt="line1" class=" line-one">
+        <img src="images/Line 2.png" alt="line2" class=" line-two ">
+        <img src="images/Line 3.png" alt="line3" class=" line-three">
+
+        <div class="fist-circle circle" onclick="gameStart('stone')">
+            <div class="fist-box">
+                <img src="images/stone.png" alt="fist">
+            </div>
+        </div>
+
+        <div class="palm-circle circle" onclick="gameStart('paper')">
+            <div class="palm-box">
+                <img src="images/paper.png" alt="palm">
+            </div>
+        </div>
+
+        <div class="victory-circle circle" onclick="gameStart('scissor')">
+            <div class="victory-box">
+                <img src="images/scissor.png" alt="victory">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ==============================Alternate to triangle----------------------------------------- -->
+    <div class="halo-container">
+
+        <div class="user-halo halo-box">
+
+            <p>YOU PICKED</p>
+            <div class="halo-fist-circle halo-circle user-circle">
+                <div class="fist-box">
+                    <img src="" class="user_img">
+                </div>
+            </div>
+        </div>
+
+        <div class="center-result">
+            <p class="big-text"></p>
+            <p class="small-text">AGAINST PC</p>
+            <button class="play-again-btn" onclick="play_again_func()">Play Again</button>
+        </div>
+
+        <div class="comp-halo halo-box">
+
+            <p>PC PICKED</p>
+            <div class="halo-palm-circle halo-circle comp-circle">
+                <div class="palm-box">
+                    <img src="" class="comp_img">
+                </div>
+            </div>
+        </div>
+</div>
+
+        <!-- ----------------------------Rules-------------------------- -->
+
+        <div class="outer-rules-box">
+
+            <div class="cross" onclick="hideRules()">X</div>
+
+            <div class="rules-container">
+                <p>Game Rules</p>
+                <ul type="none">
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock,
+                        paper,
+                        scissors.”</li>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ========================Buttons ------------------------------- -->
+
+        <button class="rules-button corner-button" onclick="showRules()">RULES</button>
+
+        <button class="next-button corner-button" onclick="next_page()">NEXT</button>
+
+        <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
